@@ -13,10 +13,6 @@ create new folder locally with any name you want (i.e github-practice-project)
 
 **open cmd and navigate to newly created folder**
 
--initiate git:
-
-git init
-
 -clone remote repo to the local file:
 
 git clone https://github.com/Olavarry/github-practice-repo.git
