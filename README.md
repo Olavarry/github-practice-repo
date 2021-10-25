@@ -50,3 +50,6 @@ $ git push -u <remote> <branch-name>
 git checkout master
 
 git checkout feature/add-new-test-for-home-page
+
+#Other way to change to master
+git swtich <nombre branch> 
