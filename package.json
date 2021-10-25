@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "cy:test",
-    "cypress:open": "cypress open"
+    "test": "./node_modules/.bin/cypress run",
+    "cyOpen": "cypress open"
   },
   "author": "Luis Olavarria",
   "license": "ISC"
