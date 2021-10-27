@@ -51,5 +51,5 @@ git checkout master
 
 git checkout feature/add-new-test-for-home-page
 
-## Other way to change branch
+## Other way to change branch you can do it.
 git switch <brancheName>
