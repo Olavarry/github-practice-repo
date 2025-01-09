@@ -6,7 +6,6 @@ beforeEach(() => {
   })
 
   it('validate title', () => {
-    //cy.get('h1').should('include', 'Ecommerce SoftwareDevelopment Services')
-    expect(cy.get('h1')).to.contain('Ecommerce SoftwareDevelopment Services')   
+    cy.get('h1').should('have.text', 'E-commerce Testing Services')
   })
   
