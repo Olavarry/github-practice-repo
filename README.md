@@ -1,55 +1,61 @@
 # github-practice-repo
 
-**#######Follow this steps to get cypress tests running#######**
+This repository is for practicing Git and GitHub workflows, including managing branches and running automated tests with Cypress.
 
-**install node.js and npm:**
-https://nodejs.org/es/download/
-once installed, confirm it is successfully installed by typing this in command line: node -v
+---
 
-**install git locally:**
-https://git-scm.com/download/win
+## 🚀 Getting Started
 
-create new folder locally with any name you want (i.e github-practice-project)
+To get the Cypress tests running locally, follow these steps.
 
-**open cmd and navigate to newly created folder**
+### Prerequisites
 
--clone remote repo to the local file:
+* **Node.js & npm:** Download and install from [https://nodejs.org](https://nodejs.org/es/download/). To confirm installation, open your command line and type `node -v`.
+* **Git:** Download and install from [https://git-scm.com](https://git-scm.com/download/win).
 
-git clone https://github.com/Olavarry/github-practice-repo.git
+### Installation and Setup
 
--Set your git hub account:
+1.  **Clone the Repository:** Create a new folder on your computer and open your command line or terminal within that folder. Then, run the following command to clone the repo:
 
-git config user.email {yourEmailassociatedToGitHub}
+    ```bash
+    git clone [https://github.com/Olavarry/github-practice-repo.git](https://github.com/Olavarry/github-practice-repo.git)
+    ```
 
-git config user.name {yourName}
+2.  **Navigate to the Project:** Move into the newly cloned project directory:
 
--install dev dependencies:
+    ```bash
+    cd github-practice-repo
+    ```
 
-npm install
+3.  **Configure Git:** Set your Git user name and email to associate your commits with your GitHub account.
 
--verify "node modules" folder should be added to the project.
+    ```bash
+    git config user.email "yourEmail@example.com"
+    git config user.name "Your Name"
+    ```
 
--open cypress:
+4.  **Install Dependencies:** Install all the required Node.js packages for the project. This will create a `node_modules` folder.
 
-npm run cypress:open
-      
--you should be able to select test to run in cypress GUI
+    ```bash
+    npm install
+    ```
 
-**How to create feature branch:**
+5.  **Open Cypress:** Launch the Cypress test runner GUI.
 
-git checkout -b {NameofYourbanch}
+    ```bash
+    npm run cypress:open
+    ```
+    You should now be able to select and run tests from the Cypress test runner.
 
-i.e git checkout -b feature/add-new-test-for-home-page
+---
 
-**How to publish new branch to remote**
+## 🌿 Git Branching Workflow
 
-$ git push -u <remote> <branch-name>
+Here are the basic commands for managing branches in this repository.
 
-**How to change to master/feature branch**
+### Create a New Feature Branch
 
-git checkout master
+Use the `checkout -b` command to create a new branch and switch to it in a single step.
 
-git checkout feature/add-new-test-for-home-page
-
-## Other way to change branch you can do it.
-git switch <brancheName>
+```bash
+git checkout -b feature/add-new-test-for-home-page
