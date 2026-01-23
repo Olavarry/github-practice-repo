@@ -4,7 +4,7 @@ This repository is for practicing Git and GitHub workflows, including managing b
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started.
 
 To get the Cypress tests running locally, follow these steps.
 
@@ -13,7 +13,7 @@ To get the Cypress tests running locally, follow these steps.
 * **Node.js & npm:** Download and install from [https://nodejs.org](https://nodejs.org/es/download/). To confirm installation, open your command line and type `node -v`.
 * **Git:** Download and install from [https://git-scm.com](https://git-scm.com/download/win).
 
-### Installation and Setup
+### Installation and Setup.
 
 1.  **Clone the Repository:** Create a new folder on your computer and open your command line or terminal within that folder. Then, run the following command to clone the repo:
 
@@ -49,11 +49,11 @@ To get the Cypress tests running locally, follow these steps.
 
 ---
 
-## 🌿 Git Branching Workflow
+## 🌿 Git Branching Workflow.
 
 Here are the basic commands for managing branches in this repository.
 
-### Create a New Feature Branch
+### Create a New Feature Branch.
 
 Use the `checkout -b` command to create a new branch and switch to it in a single step.
 
